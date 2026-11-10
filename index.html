@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H.N Portfolio</title>
+
+  <link rel="icon" href="img/my icon 2.webp">
+
+  <!--CSS読み込み-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--JS読み込み-->
+  <script src="js/main.js" defer></script>
+
+  <!--Google フォント-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul class="header-flex">
+        <li><a href="#works">
+            Works</a></li>
+        <li><a href="#about">
+            About</a></li>
+        <li><a href="#skills">
+            Skills</a></li>
+        <li><a href="#contact">
+            Contact
+          </a></li>
+      </ul>
+    </nav>
+
+    <div id="navArea">
+      <nav class="header-nav">
+        <div class="inner">
+          <ul>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="fv">
+      <img class="fv-shadow" src="img/FV Vector.png" alt="背景の影画像">
+
+      <div class="fv-title">
+        <h1 class="fv-heading">
+          <span class="fv-name fv-namefirst">HITOMI</span>
+          <span class="fv-name fv-namelast">NAGASAKA</span>
+        </h1>
+
+        <p class="fv-portfolio">Portfolio</p>
+
+        <div class="fv-job">
+          <span class="fv-jobline"></span>
+          <span>Web Design</span>
+        </div>
+      </div>
+
+      <div class="scroll">
+        <p>SCROLL</p>
+        <span></span>
+      </div>
+
+      <a href="#contact" class="fv-contact">CONTACT</a>
+    </section>
+
+    <section id="works">
+      <div class="section-title js-section-title">
+        <h2 aria-label="WORKS">
+          <span style="--i: 0">W</span>
+          <span style="--i: 1">O</span>
+          <span style="--i: 2">R</span>
+          <span style="--i: 3">K</span>
+          <span style="--i: 4">S</span>
+        </h2>
+        <span class="section-title_line"></span>
+        <p>制作実績</p>
+      </div>
+
+      <div class="works-flex">
+        <div class="works-img-wrap fadein">
+          <a href="works/portfolio.html" target="_blank"><img src="img/WORKS-1.webp" alt="ポートフォリオ画像"
+              class="works-img"></a>
+        </div>
+
+        <div class="works-item">
+          <span class="works-number">01</span>
+          <h3>Website</h3>
+          <h2>PORTFOLIO SITE</h2>
+          <p>転職活動のための<br>
+            ポートフォリオサイトを制作しました。</p>
+          <p class="p-1">design / coding / JavaScript</p>
+          <a href="works/portfolio.html" target="_blank" class="works-link">
+            <span>詳しく見る</span>
+            <img src="img/矢印黄色丸.svg" alt="黄色円矢印">
+          </a>
+        </div>
+      </div>
+
+      <div class="works-flex flex2">
+        <div class="works-item item2">
+          <span class="works-number">02</span>
+          <h3>Website</h3>
+          <h2>TORA PROJECT株式会社</h2>
+          <p>TORA PROJECT株式会社のENTRYページの<br>デザインをしました。</p>
+          <p class="p-1">design</p>
+          <a href="works/works-1.html" target="_blank" class="works-link link2">
+            <span>詳しく見る</span>
+            <img src="img/矢印黄色丸.svg" alt="黄色円矢印">
+          </a>
+        </div>
+
+        <div class="works-img-wrap fadein">
+          <a href="works/works-1.html" target="_blank">
+            <img src="img/WORKS-2.webp" alt="実績画像TORA PROJECT株式会社のENTRYページ" class="works-img img2"></a>
+        </div>
+      </div>
+
+      <div class="works-flex flex3">
+        <div class="works-img-wrap fadein">
+          <a href="works/works-2.html" target="_blank"><img src="img/workspage-2.webp" alt="実績画像TORA PROJECT株式会社のTOPICSページ"
+              class="works-img"></a>
+        </div>
+
+        <div class="works-item">
+          <span class="works-number">03</span>
+          <h3>Website</h3>
+          <h2>TORA PROJECT株式会社</h2>
+          <p>TORA PROJECT株式会社の
+            <br>TOPICSページを制作しました。
+          </p>
+          <p class="p-1">design / coding / JavaScript</p>
+          <a href="works/works-2.html" target="_blank" class="works-link">
+            <span>詳しく見る</span>
+            <img src="img/矢印黄色丸.svg" alt="黄色円矢印">
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about">
+      <div class="about-marquee">
+        <div class="about-marquee__track">
+
+          <!-- 1つ目のグループ -->
+          <div class="about-marquee__group">
+            <span>CONNECT THROUGH DESIGN</span>
+            <span>CONNECT THROUGH DESIGN</span>
+          </div>
+
+          <!-- 同じ内容を丸ごと複製 -->
+          <div class="about-marquee__group" aria-hidden="true">
+            <span>CONNECT THROUGH DESIGN</span>
+            <span>CONNECT THROUGH DESIGN</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="about-box">
+        <div class="section-title js-section-title about-title">
+          <h2 aria-label="ABOUT">
+            <span style="--i: 0">A</span>
+            <span style="--i: 1">B</span>
+            <span style="--i: 2">O</span>
+            <span style="--i: 3">U</span>
+            <span style="--i: 4">T</span>
+          </h2>
+          <span class="section-title_line"></span>
+          <p>私について</p>
+        </div>
+
+        <div class="about-flex">
+          <img src="img/手書きイラスト.svg" alt="自分のイラスト" class="about-img js-about-img">
+
+          <div class="about-item">
+            <div class="about-name">
+              <h3 class="name-en">HITOMI NAGASAKA</h3>
+              <p class="name-ja">長坂 瞳</p>
+            </div>
+
+            <p class="about-info">山梨県在住。<br>
+
+              昔から紙ものやレイアウトを考えることが好きで、約15年間勤務したアパレル業界でも、冊子やDMを制作する時間に楽しさを感じていました。その経験をきっかけに、デザインを本格的に仕事につなげたいと思い、Web制作を学び始めました。
+              現在はFigmaを使用したデザインと、HTML/CSS/JavaScriptでの基本的なコーディングに取り組んでいます。
+            </p>
+
+            <a href="about.html" target="_blank" class="about-link">
+              <span>詳しく見る</span>
+              <img src="img/グレー矢印.svg" alt="グレー円矢印">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-title js-section-title skills-title">
+        <h2 aria-label="SKILLS">
+          <span style="--i: 0">S</span>
+          <span style="--i: 1">K</span>
+          <span style="--i: 2">I</span>
+          <span style="--i: 3">L</span>
+          <span style="--i: 4">L</span>
+          <span style="--i: 5">S</span>
+        </h2>
+        <span class="section-title_line"></span>
+        <p>実務能力</p>
+      </div>
+
+      <div class="skills-flex">
+
+        <div class="skills-card card1 js-skills-card">
+          <div class="skills-card-heading">
+            <img src="img/skills-cod.svg" alt="coding画像" class="skills-img fadein">
+            <div class="flex-title">
+              <h3 class="skills-en">CODING</h3>
+              <p class="skills-ja">コーディング</p>
+            </div>
+          </div>
+
+          <p class="skills-info">
+            HTML/CSSの基礎を理解し、デザインをもとにしたコーディングやレイアウトの構築が可能です。現在はより実践的なスキルの習得を目指して学習を継続しています。</p>
+        </div>
+
+        <div class="skills-card card2 js-skills-card">
+          <div class="skills-card-heading">
+            <img src="img/skills-fig.svg" alt="figma画像" class="skills-img fadein fig-img">
+
+            <div class="flex-title">
+              <h3 class="skills-en">FIGMA</h3>
+              <p class="skills-ja">フィグマ</p>
+            </div>
+          </div>
+
+          <p class="skills-info">Figmaを使用したワイヤーフレームの作成や、レイアウト・余白・フォントなどの意図を読み取り、コーディングに反映することが可能です。</p>
+        </div>
+
+        <div class="skills-card card3 js-skills-card">
+          <div class="skills-card-heading">
+            <img src="img/skills-java.svg" alt="JavaScript画像" class="skills-img fadein java-img">
+
+            <div class="flex-title">
+              <h3 class="skills-en">JavaScript</h3>
+              <p class="skills-ja">ジャバスクリプト</p>
+            </div>
+          </div>
+
+          <p class="skills-info">JavaScriptを使用した動きのあるWebサイトを実装できます。ハンバーガーメニューやスライダー、フェードインなどのUIを制作可能です。</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+
+      <div class="contact-shadows" aria-hidden="true">
+        <img src="img/CO1 Vector.png" alt="影の画像1" class="contact-shadow contact-shadow--01">
+        <img src="img/CO2 Vector.png" alt="影の画像2" class="contact-shadow contact-shadow--02">
+        <img src="img/CO3 Vector.png" alt="影の画像3" class="contact-shadow contact-shadow--03">
+      </div>
+
+      <div class="contact-title">
+        <h2>CONTACT</h2>
+        <p>お問い合わせ</p>
+      </div>
+
+      <p class="contact-text">ポートフォリオをご覧いただきありがとうございます。<br>
+        Web制作のご相談やご依頼など、下記メールにお気軽にお問い合わせください。<br>内容を確認後、2日以内にご返信いたします。</p>
+
+      <div>
+        <a class="mail" href="mailto:stuo5396@gmail.com">CONTACT ME</a>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-flex">
+        <nav>
+          <ul class="nav-flex">
+            <li><a href="#works">Works</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <small class="small">©2026 Hitomi Nagasaka Portfolio</small>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

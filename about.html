@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+
+  <link rel="icon" href="img/my icon 2.webp">
+
+  <!--CSS読み込み-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/about-detail.css">
+
+  <!--JS読み込み-->
+  <script src="js/about-detail.js" defer></script>
+
+  <!--Google フォント-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul class="header-flex">
+        <li><a href="index.html#works">
+            Works</a></li>
+        <li><a href="index.html#about">
+            About</a></li>
+        <li><a href="index.html#skills">
+            Skills</a></li>
+        <li><a href="#contact">
+            Contact
+          </a></li>
+      </ul>
+    </nav>
+
+    <div id="navArea">
+      <nav class="header-nav">
+        <div class="inner">
+          <ul>
+            <li><a href="index.html#works">Works</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="about-top">
+      <div class="section-title js-section-title">
+        <h2 aria-label="ABOUT-TOP">
+          <span style="--i: 0">A</span>
+          <span style="--i: 1">B</span>
+          <span style="--i: 2">O</span>
+          <span style="--i: 3">U</span>
+          <span style="--i: 4">T</span>
+        </h2>
+        <span class="section-title_line"></span>
+        <p>私について</p>
+      </div>
+
+      <div class="about-profile">
+
+        <div class="about-profile-visual">
+          <img src="img/HIイラスト.svg" alt="自分のイラスト" class="about-profile-img">
+        </div>
+
+        <div class="about-profile-content">
+          <h1>HITOMI NAGASAKA</h1>
+
+          <div class="about-profile-text">
+            <p>はじめまして。<br>
+              山梨県を拠点に、Webデザインとコーディングを学んでいるナガサカ ヒトミです。
+            </p>
+            <p>
+              昔から紙ものやレイアウトを考えることが好きで、アパレル業界で15年勤務する中でも、冊子やDMを制作する時間に楽しさを感じていました。「どう見せたら伝わるか」を考えてきた経験を生かしたいと思い、Webデザインを学び始めました。お客様の話をじっくり聞き、信頼関係を大切にしながら、想いを形にするところから始められるWebデザイナーを目指しています。
+            </p>
+            <p>
+              特技は、なぜか子どもとすぐに仲良くなれること。<br>
+              趣味は、愛猫とのんびり過ごすことと、美味しいご飯とお酒を楽しむこと、そして甥っ子と夢中でものづくりをすることです。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-skills">
+      <div class="about-skills-inner">
+        <div class="about-skills-title js-skills-title">
+          <span></span>
+          <h2>MY SKILLS | できること</h2>
+        </div>
+
+        <div class="skill-block">
+          <img src="img/ウェブデザイン.webp" alt="ウェブデザイン画像" class="skill-main-img">
+
+          <div class="skill-main-text js-fade-up">
+            <h3>Web Design</h3>
+            <p>
+              Webサイトのデザインを制作しています。<br>
+              お客様の想いや目的をじっくり伺い、ユーザーが迷わず必要な情報へたどり着ける、シンプルで分かりやすいデザインを心がけています。見た目の美しさだけでなく、使いやすさにも配慮し、その魅力が伝わるサイト制作に取り組んでいます。
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-detail skill-detail-figma js-fade-up">
+          <h3>Figma</h3>
+          <p>
+            Figmaを使用し、Webサイトのワイヤーフレームからデザインカンプまで制作しています。情報の優先順位や余白、文字の読みやすさを意識しながら、操作に迷わない画面設計を心がけています。また、コンポーネントやオートレイアウトを活用し、修正や更新がしやすいデータ作りにも取り組んでいます。
+          </p>
+        </div>
+
+        <div class="skill-block skill-block-second">
+          <img src="img/コーディング.webp" alt="コーディング画面" class="skill-main-img">
+
+          <div class="skill-main-text js-fade-up">
+            <h3>Web Development</h3>
+            <p>
+             HTML・CSS・JavaScriptを使用し、デザインカンプをもとにWebサイトをコーディングできます。レスポンシブ対応や、読みやすく修正しやすいコードを意識して制作しています。スライダーやメニューの開閉、スクロールアニメーションなどの実装にも対応できます。
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-detail js-fade-up">
+          <h3>HTML / CSS</h3>
+          <p>
+           HTML・CSSを使用し、デザインカンプをもとにWebサイトを制作できます。見た目を再現するだけでなく、情報が整理された分かりやすい構造と、さまざまな画面サイズで快適に閲覧できるレスポンシブ対応を意識しています。エディターはVisual Studio Codeを使用しています。
+          </p>
+        </div>
+
+        <div class="skill-detail js-fade-up">
+          <h3>JavaScript</h3>
+          <p>
+            JavaScriptを使用し、スライダーやメニューの開閉、スクロールに合わせたアニメーションなど、Webサイトに動きを加えることができます。見た目の楽しさだけでなく、ユーザーが直感的に操作できる、心地よい動きを意識して実装しています。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="strengths">
+      <div class="strengths-inner">
+
+        <div class="strengths-title js-strengths-title">
+          <span class="strengths-title-line"></span>
+          <h2>MY STRENGTHS | 強み</h2>
+        </div>
+
+        <div class="strengths-list">
+
+          <div class="strengths-item js-fade-up">
+            <div class="strengths-heading">
+              <img src="img/黄色1.svg" alt="黄色い円に数字の1" class="strengths-number">
+
+              <h3>納得するまで向き合う探究心</h3>
+            </div>
+
+            <p>
+              デザインを考えるときは、「これだ！」と気持ちが高まるまで、さまざまな表現や可能性を探り続けます。簡単に答えを決めず、何度も考え、試しながら、お客様の想いに合った、心から納得できる形に仕上げることを大切にしています。
+            </p>
+          </div>
+
+          <div class="strengths-item js-fade-up">
+            <div class="strengths-heading">
+              <img src="img/黄色2.svg" alt="黄色い円に数字の2" class="strengths-number">
+
+              <h3>コツコツと積み重ねる継続力</h3>
+            </div>
+
+            <p>
+              アパレル販売を15年間続け、店長として店舗運営にも携わってきました。負けず嫌いな性格で、できないことをそのままにせず、少しずつでも成長するために努力を続けられます。自分の成長だけでなく、相手の期待や想いに応えたいという気持ちが、粘り強く取り組む原動力になっています。
+            </p>
+          </div>
+
+          <div class="strengths-item js-fade-up">
+            <div class="strengths-heading">
+              <img src="img/黄色3.svg" alt="黄色い円に数字の3" class="strengths-number">
+
+              <h3>相手に寄り添う距離感</h3>
+            </div>
+
+            <p>
+             相手の気持ちや考えを尊重し、近すぎず遠すぎない、心地よい距離感で向き合うことを大切にしています。接客では、お客様が話したいときはじっくり聞き、言葉の奥にある想いにも耳を傾け、迷っているときはそっと提案することを心がけてきました。一つひとつのやり取りを積み重ね、「この人なら安心して任せられる」と思っていただける存在を目指しています。
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+
+      <div class="contact-shadows" aria-hidden="true">
+        <img src="img/CO1 Vector.png" alt="影の画像1" class="contact-shadow contact-shadow--01">
+        <img src="img/CO2 Vector.png" alt="影の画像2" class="contact-shadow contact-shadow--02">
+        <img src="img/CO3 Vector.png" alt="影の画像3" class="contact-shadow contact-shadow--03">
+      </div>
+
+      <div class="contact-title">
+        <h2>CONTACT</h2>
+        <p>お問い合わせ</p>
+      </div>
+
+      <p class="contact-text">ポートフォリオをご覧いただきありがとうございます。<br>
+        Web制作のご相談やご依頼など、下記メールにお気軽にお問い合わせください。<br>内容を確認後、2日以内にご返信いたします。</p>
+
+      <div>
+        <a class="mail" href="mailto:stuo5396@gmail.com">CONTACT ME</a>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-flex">
+        <nav>
+          <ul class="nav-flex">
+            <li><a href="index.html#works">Works</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <small class="small">©2026 Hitomi Nagasaka Portfolio</small>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

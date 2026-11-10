@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO SITE</title>
+
+  <link rel="icon" href="../img/my icon 2.webp">
+
+  <!--CSS読み込み-->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/works-detail.css">
+
+  <!--JS読み込み-->
+  <script src="../js/works-detail.js" defer></script>
+
+  <!--Google フォント-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul class="header-flex">
+        <li><a href="../index.html#works">
+            Works</a></li>
+        <li><a href="../index.html#about">
+            About</a></li>
+        <li><a href="../index.html#skills">
+            Skills</a></li>
+        <li><a href="#contact">
+            Contact
+          </a></li>
+      </ul>
+    </nav>
+
+    <div id="navArea">
+      <nav class="header-nav">
+        <div class="inner">
+          <ul>
+            <li><a href="../index.html#works">Works</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="works-top">
+      <div class="section-title js-section-title">
+        <h2 aria-label="WORKS">
+          <span style="--i: 0">W</span>
+          <span style="--i: 1">O</span>
+          <span style="--i: 2">R</span>
+          <span style="--i: 3">K</span>
+          <span style="--i: 4">S</span>
+        </h2>
+        <span class="section-title_line"></span>
+        <p>制作実績</p>
+      </div>
+
+      <div class="works-top-flex">
+        <div class="works-item">
+          <span class="works-number">01</span>
+          <h3>Website</h3>
+          <h2>PORTFOLIO SITE</h2>
+        </div>
+        <div>
+          <a href="../index.html" class="works-link" target="_blank">
+            <span>詳しく見る</span>
+            <img src="../img/矢印黄色丸.svg" alt="黄色円矢印">
+          </a>
+        </div>
+      </div>
+
+      <div class="works-top-img">
+        <img src="../img/WORKS-1.webp" alt="ポートフォリオ画像" class="portfolio-img">
+      </div>
+
+      <div class="works-top-inner">
+        <h3 class="works-top-title">
+          <span>足し引きを重ねて見つけた、</span><br>
+          <span class="title-2">私らしい色と表現。</span>
+        </h3>
+
+        <p class="works-top-text">
+          Webデザイナーを目指す自身のポートフォリオサイトを制作しました。<br>
+          採用担当者の視点を意識し、情報を分かりやすく整理しながら、作品としても魅力的に見ていただけるデザインを目指しました。
+          さまざまなポートフォリオサイトを参考に、レイアウトや余白、文字の見せ方、配色を研究し、試行錯誤を重ねながら取り入れる要素を選んでいきました。自分の雰囲気や人柄が伝わるよう意識し、見やすさと自分らしさのバランスを整えています。
+        </p>
+      </div>
+    </section>
+
+
+    <section id="works-scroll">
+
+      <div class="portfolio-preview">
+        <img src="../img/スクロールアイコン.svg" alt="スクロールアイコン" class="scroll-icon">
+
+        <div class="portfolio-preview-window">
+          <img src="../img/ポートフォリオ一覧画像.png" alt="ポートフォリオページ全体画像" class="portfolio-preview-img">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="works-detail">
+      <dl class="works-detail-list">
+
+        <div class="works-detail-row">
+          <dt>ターゲット</dt>
+          <dd>採用担当者の方々。</dd>
+        </div>
+
+        <div class="works-detail-row">
+          <dt>目的</dt>
+          <dd>
+            制作実績や身につけたスキルを分かりやすく伝えるとともに、デザインへの考え方や、書類では伝わりにくい人柄を知っていただくことを目的としました。採用担当者の方に、デザイナーとして働く姿をイメージしていただき、興味を持っていただけるポートフォリオを目指しました。
+          </dd>
+        </div>
+
+        <div class="works-detail-row">
+          <dt>情報設計</dt>
+          <dd>
+            採用担当者の方が制作実績やスキルをスムーズに確認できるよう、トップページの最初にWORKSを配置しました。その後にABOUT、SKILLS、CONTACTと続けることで、作品を入り口に人物像や身につけた技術を知り、問い合わせまで迷わず進める構成にしています。さらに興味を持っていただいた方に向けてプロフィールページを設け、これまでの経験や強み、デザインに対する考え方を、より詳しく伝えられるようにしました。
+          </dd>
+        </div>
+
+        <div class="works-detail-row">
+          <dt>デザインプロセス</dt>
+          <dd>
+            シンプルで落ち着いた雰囲気をベースに、程よい遊び心を加え、人柄が伝わるデザインを目指しました。アクセントとなる色使いやロゴの見せ方を工夫し、単調になりすぎないよう意識しています。さまざまなサイトを参考にする中で、当初のイメージから離れることもありましたが、必要な要素を選び直しながら試行錯誤を重ねました。少しずつ納得できるデザインへ近づいていく過程にワクワクしながら、デザインの難しさと楽しさを感じ、自分らしい表現へと仕上げました。
+          </dd>
+        </div>
+
+        <div class="works-detail-row">
+          <dt>制作期間</dt>
+          <dd>
+            <div class="period">
+              <span>企画 / 情報設計 / WF </span>
+              <span>1週間</span>
+
+              <span>デザイン</span>
+              <span>2週間</span>
+
+              <span>コーディング</span>
+              <span>2週間</span>
+            </div>
+          </dd>
+        </div>
+
+        <div class="works-detail-row">
+          <dt>使用ツール</dt>
+          <dd>Figma / VS Code</dd>
+        </div>
+      </dl>
+    </section>
+
+    <img src="../img/ポートフォリオSP画像.webp" alt="ポートフォリオSP画像一覧" class="mobile-mockup">
+
+    <section id="other-works">
+      <div class="section-title js-section-title">
+        <h2 aria-label="OTHER">
+          <span style="--i: 0">O</span>
+          <span style="--i: 1">T</span>
+          <span style="--i: 2">H</span>
+          <span style="--i: 3">E</span>
+          <span style="--i: 4">R</span>
+          <span style="--i: 5">&nbsp;</span>
+          <span style="--i: 6">W</span>
+          <span style="--i: 7">O</span>
+          <span style="--i: 8">R</span>
+          <span style="--i: 9">K</span>
+          <span style="--i: 10">S</span>
+        </h2>
+        <span class="section-title_line"></span>
+        <p>制作実績</p>
+      </div>
+
+      <div class="other-flex">
+        <div class="other-item other-1">
+          <a href="../works/works-1.html" target="_blank">
+            <img src="../img/WORKS-2.webp" alt="実績画像TORA PROJECT株式会社のENTRYページ" class="other-img">
+            <p class="other-name">TORA PROJECT株式会社</p>
+            <p class="ather-skill">design</p>
+          </a>
+        </div>
+
+        <div class="other-item other-2">
+          <a href="../works/works-2.html" target="_blank">
+            <img src="../img/workspage-2.webp" alt="実績画像TORA PROJECT株式会社のTOPICSページ" class="other-img">
+            <p class="other-name">TORA PROJECT株式会社</p>
+            <p class="ather-skill">design / coding / JavaScript</p>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact">
+
+      <div class="contact-shadows" aria-hidden="true">
+        <img src="../img/CO1 Vector.png" alt="影の画像1" class="contact-shadow contact-shadow--01">
+        <img src="../img/CO2 Vector.png" alt="影の画像2" class="contact-shadow contact-shadow--02">
+        <img src="../img/CO3 Vector.png" alt="影の画像3" class="contact-shadow contact-shadow--03">
+      </div>
+
+      <div class="contact-title">
+        <h2>CONTACT</h2>
+        <p>お問い合わせ</p>
+      </div>
+
+      <p class="contact-text">ポートフォリオをご覧いただきありがとうございます。<br>
+        Web制作のご相談やご依頼など、下記メールにお気軽にお問い合わせください。<br>内容を確認後、2日以内にご返信いたします。</p>
+
+      <div>
+        <a class="mail" href="mailto:stuo5396@gmail.com">CONTACT ME</a>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-flex">
+        <nav>
+          <ul class="nav-flex">
+            <li><a href="../index.html#works">Works</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <small class="small">©2026 Hitomi Nagasaka Portfolio</small>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
