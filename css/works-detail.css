@@ -82,7 +82,7 @@
 
 .works-item h3 {
   font-size: 14px;
-   color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 #works-top .works-item h2 {
@@ -171,7 +171,7 @@
 .portfolio-preview-window {
   width: 100%;
   /* height: clamp(330px, 45vw, 620px); */
- aspect-ratio: 1513 / 730 ;
+  aspect-ratio: 1513 / 730;
   overflow-y: auto;
   overflow-x: hidden;
   overscroll-behavior: contain;
@@ -225,7 +225,7 @@
 }
 
 .inner-2 {
-   background-color: rgba(125, 125, 123, 0.18);
+  background-color: rgba(125, 125, 123, 0.18);
 }
 
 .fullpage-images {
@@ -374,40 +374,41 @@
   }
 
   .fullpage-label {
-  top: -40px;
-  width: clamp(50px, 10vw, 80px);
-}
+    top: -40px;
+    width: clamp(50px, 10vw, 80px);
+  }
 
   .mobile-mockup {
-   padding-bottom: 150px; 
+    padding-bottom: 150px;
   }
-    #other-works h2 {
+
+  #other-works h2 {
     font-size: 32px;
   }
 
   .mobile-mockup {
-  width: 95%;
-}
-  
+    width: 95%;
+  }
+
 }
 
 @media (max-width: 780px) {
-   .works-detail-row {
+  .works-detail-row {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
   .other-flex {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 
-.fullpage-inner {
-  border-radius: 30px;
-}
+  .fullpage-inner {
+    border-radius: 30px;
+  }
 
   .fullpage-label {
-  top: -30px;
-}
+    top: -30px;
+  }
 
 }
 
@@ -418,7 +419,7 @@
   }
 
   #works-top {
-     padding-top: 120px;
+    padding-top: 120px;
   }
 
   #works-scroll {
@@ -431,6 +432,10 @@
 
   .section-title {
     padding: 0;
+  }
+
+  .section-title_line {
+    width: 40px;
   }
 
   .portfolio-img {
@@ -451,25 +456,27 @@
     margin-top: 40px;
   }
 
-.works-link img {
-  width: 30px;
-  height: 30px;
-}
+  .works-link img {
+    width: 30px;
+    height: 30px;
+  }
 
-#other-works h2 {
-  font-size: 26px;
+  #other-works h2 {
+    font-size: 20px;
+  }
+.section-title p {
+  font-size: 12px;
 }
+  .mobile-mockup {
+    padding-bottom: 80px;
+  }
 
-.mobile-mockup {
-  padding-bottom: 80px;
-}
-
-.fullpage-inner {
-  border-radius: 20px;
-}
+  .fullpage-inner {
+    border-radius: 20px;
+  }
 
   .fullpage-label {
-  top: -20px;
-}
+    top: -20px;
+  }
 
 }

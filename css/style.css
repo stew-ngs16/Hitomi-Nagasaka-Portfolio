@@ -956,7 +956,7 @@ body {
     flex: none;
     width: 70%;
     margin: 0;
-    padding: 150px 20px 150px 50px;
+    padding: 140px 20px 100px 50px;
 
     z-index: 2;
   }
@@ -977,41 +977,6 @@ body {
   #skills h2 {
     font-size: 32px;
   }
-
-  /* .skills-flex {
-    grid-template-columns: 1fr;
-    gap: 48px;
-    margin-top: 50px;
-  }
-
-  .skills-card__heading {
-    gap: 18px;
-    margin-bottom: 20px;
-  }
-
-  .skills-img {
-    width: 64px;
-    height: 64px;
-  }
-
-  .skills-card:first-child .skills-img {
-    width: 74px;
-  }
-
-  .skills-en {
-    font-size: 20px;
-  }
-
-  .skills-ja {
-    font-size: 12px;
-  }
-
-  .skills-info {
-    font-size: 14px;
-    line-height: 1.8;
-  } */
-
-
 
 }
 
@@ -1180,6 +1145,29 @@ body {
     padding-top: 50px;
   }
 
+  .about-box {
+    height: auto;
+    min-height: 700px;
+    padding-bottom: 80px;
+  }
+
+  .about-flex {
+    height: auto;
+    min-height: 0;
+  }
+  
+.about-item {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 30%;
+
+    width: 70%;
+    margin: 0;
+    padding: 130px 20px 0 50px;
+  }
+
   #about .about-title h2 {
     font-size: 24px;
   }
@@ -1196,9 +1184,6 @@ body {
     font-size: 16px;
   }
 
-  .about-flex {
-    min-height: 780px;
-  }
 
   .about-marquee__group span {
     font-size: 100px;
@@ -1208,9 +1193,6 @@ body {
     padding-left: 45%;
   }
 
-  .about-box {
-    height: 700px;
-  }
 
   .about-info {
     width: 90%;
