@@ -294,6 +294,10 @@
 
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 .period {
   display: grid;
   grid-template-columns: 200px auto;

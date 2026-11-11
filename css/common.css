@@ -444,6 +444,31 @@ nav .inner ul li a:hover {
     gap: 30px;
   }
 
+  #footer {
+  height: 220px;
+}
+.nav-flex {
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 20px;
+}
+
+.footer-flex {
+  padding: 0 50px;
+}
+
+.small {
+  margin-top: 220px;
+}
+
+#footer a {
+  font-size: 14px;
+}
+
+#footer small {
+  font-size: 12px;
+}
+
 }
 
   @media (max-width: 600px) {
@@ -461,21 +486,6 @@ nav .inner ul li a:hover {
   width: 85%;
 }
 
-#footer {
-  height: 220px;
-}
-.nav-flex {
-  flex-direction: column;
-  margin-top: 80px;
-  gap: 20px;
-}
 
-.footer-flex {
-  padding: 0 50px;
-}
-
-.small {
-  margin-top: 220px;
-}
 }
 
