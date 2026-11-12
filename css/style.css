@@ -1085,9 +1085,9 @@ body {
     position: static;
     width: 64px;
     height: auto;
-    margin-left: 13%;
-    
+    /* margin-left: 14.5%; */
 
+    
     opacity: 0;
     transform: translateY(-16px);
     animation: scrollIcon 0.7s ease-out 3.1s forwards;
@@ -1098,17 +1098,18 @@ body {
     position: static;
 
     width: 1px;
-    height: 0;
+    height: var(--scrill-line-height);
     margin: 0;
 
     background-color: #4a4a4a;
-
-    animation: scrollLineIn 0.7s ease-in-out 3.5s forwards;
+    transform: scaleY(0);
+    transform-origin: top;
+    animation: scrollLineMobile 0.7s ease-in-out 3.5s forwards;
   }
 
-  @keyframes scrollLineIn {
+  @keyframes scrollLineMobile {
   to {
-    height: var(--scrill-line-height);
+    transform: scaleY(1);
   }
 }
 
@@ -1123,11 +1124,11 @@ body {
   @keyframes scrollIcon {
   from {
     opacity: 0;
-    transform: translate(-50%, 0);
+    transform: translateY(-16px);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, 0);
+    transform: translateY(0);
   }
 }
 
