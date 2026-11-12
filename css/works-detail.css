@@ -447,6 +447,10 @@
     border-radius: 8px;
   }
 
+    .portfolio-preview {
+    width: 90%;
+  }
+  
   .works-top-inner {
     width: 100%;
     margin: 0;
